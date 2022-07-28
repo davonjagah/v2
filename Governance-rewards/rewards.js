@@ -198,7 +198,7 @@ const sendrewards = async () => {
              if((index+1)== transactions.length){
                  resolve(signatures);
              }
-         }, 30 * (index + 1));
+         }, 200 * (index + 1));
      }  
 
     })
